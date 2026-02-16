@@ -23,7 +23,7 @@ Open a **new** terminal and run:
 ```powershell
 cd frontend
 pip install -r requirements.txt
-streamlit run app.py
+python -m streamlit run app.py
 ```
 The frontend will be running at `http://127.0.0.1:8501`.
 
