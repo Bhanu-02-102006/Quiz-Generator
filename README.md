@@ -12,6 +12,7 @@ A RAG-based Quiz Generator using FastAPI, Streamlit, and Mistral AI.
 Open a terminal and run:
 ```powershell
 cd backend
+python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
@@ -22,8 +23,10 @@ The backend will be running at `http://127.0.0.1:8000`.
 Open a **new** terminal and run:
 ```powershell
 cd frontend
+python -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
-python -m streamlit run app.py
+streamlit run app.py
 ```
 The frontend will be running at `http://127.0.0.1:8501`.
 
